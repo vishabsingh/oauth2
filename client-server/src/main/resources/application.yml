@@ -1,0 +1,24 @@
+server:
+  port: 9092
+spring:
+  application:
+    name: vs-client-server
+  security:
+    oauth2:
+      client:
+        registration:
+          myoauth2:
+            authorization-grant-type: authorization_code
+            client-id: client
+            client-secret: secret
+            provider: spring
+            redirect-uri: http://localhost:9092/login/oauth2/code/myoauth2
+            scope: openid
+        provider:
+          spring:
+            issuer-uri: http://localhost:9090
+
+
+logging:
+  level:
+    root: DEBUG

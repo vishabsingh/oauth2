@@ -1,0 +1,21 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: vs-auth-server
+
+app:
+  oauth2:
+    secret: b2F1dGgtc2VjcmV0
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["beans", "metrics","health","heapdump","info","liquibase","prometheus","env","beans","sessions"]
+        exclude: "loggers,shutdown,startup"
+  endpoint:
+    health:
+      show-details: always
+logging:
+  level:
+    root: DEBUG
