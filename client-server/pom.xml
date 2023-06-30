@@ -8,10 +8,10 @@
 		<version>3.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.vs.authserver</groupId>
-	<artifactId>vs-clientboot3 </artifactId>
+	<groupId>com.vs.clientserver</groupId>
+	<artifactId>client-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>vs-client-boot3 </name>
+	<name>client-server</name>
 	<description>Client Server</description>
 	<properties>
 		<java.version>17</java.version>

@@ -11,7 +11,7 @@
 	<groupId>com.vs.authserver</groupId>
 	<artifactId>auth-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>authserver</name>
+	<name>auth-server</name>
 	<description>Auth Server</description>
 	<properties>
 		<java.version>17</java.version>

@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/vs-clientboot3/pom.xml" />
         <option value="$PROJECT_DIR$/vs-authserverboot3/pom.xml" />
         <option value="$PROJECT_DIR$/vs-resourceserverboot3/pom.xml" />
+        <option value="$PROJECT_DIR$/client-server/pom.xml" />
+        <option value="$PROJECT_DIR$/resource-server/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-server/pom.xml" />
       </list>
     </option>
   </component>

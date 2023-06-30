@@ -1,4 +1,4 @@
-package com.vs.clientboot3.config;
+package com.vs.clientserver.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

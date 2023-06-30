@@ -1,4 +1,4 @@
-package com.vs.clientboot3.controller;
+package com.vs.clientserver.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
